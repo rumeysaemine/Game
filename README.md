@@ -1,12 +1,16 @@
 # 3D Oyun
 ## Oynanış
 Biricik bridge platformlar arası geçiş oyunudur. Oyunda platformlar arasındaki mesafeye göre köprü boyutu ayarlanır ve oyuncunun düşmeden karşı platforma geçmesi sağlanır. Oyunu oynamak için *[buraya](https://simmer.io/@RumeysaEmine/biricik-bridge)* tıklayınız.
+
 ## Tuşlar
 Oyun space ve sağ ok tuşu kullanılarak oynanır. Köprü boyutu space tuşuyla ayarlandıktan sonra sağ ok tuşuyla köprü karşı platforma yerleştirilir. ESC tuşu durdurma menüsünü açıp kapatmak için kullanılır. 
+
 ## Oyun İçi Görsel
 ![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun1.jpg)
 ![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun2.jpg)
+
 ### Bridge_sc.cs
+---
 Space tuşuyla köprü boyutunun ayarlanması:
 ```
 if(Input.GetAxisRaw("Jump") == 1f && turnCount == 1)
@@ -38,7 +42,9 @@ if(turnCount == 0)
     playerControl.transform.Translate(Vector3.right * Time.deltaTime * playerScript.speed); 
 }
 ```
+
 ### Player_sc.cs
+---
 Bu script dosyasında durdurma menüsü için gerekli olan buton aksiyonlarını tanımladık.
 ![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun3.jpg)
 
