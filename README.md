@@ -4,7 +4,7 @@ Biricik bridge platformlar arası geçiş oyunudur. Oyunda platformlar arasında
 ## Tuşlar
 Oyun space ve sağ ok tuşu kullanılarak oynanır. Köprü boyutu space tuşuyla ayarlandıktan sonra sağ ok tuşuyla köprü karşı platforma yerleştirilir. 
 ## Oyun İçi Görsel
-![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun1.jpg)
+![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun1.jpg = 250x250)
 ![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun2.jpg)
 ### Bridge_sc.cs
 Space tuşuyla köprü boyutunun ayarlanması:
