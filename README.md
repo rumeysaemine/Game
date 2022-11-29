@@ -2,7 +2,7 @@
 ## Oynanış
 Biricik bridge platformlar arası geçiş oyunudur. Oyunda platformlar arasındaki mesafeye göre köprü boyutu ayarlanır ve oyuncunun düşmeden karşı platforma geçmesi sağlanır. Oyunu oynamak için *[buraya](https://simmer.io/@RumeysaEmine/biricik-bridge)* tıklayınız.
 ## Tuşlar
-Oyun space ve sağ ok tuşu kullanılarak oynanır. Köprü boyutu space tuşuyla ayarlandıktan sonra sağ ok tuşuyla köprü karşı platforma yerleştirilir. 
+Oyun space ve sağ ok tuşu kullanılarak oynanır. Köprü boyutu space tuşuyla ayarlandıktan sonra sağ ok tuşuyla köprü karşı platforma yerleştirilir. ESC tuşu durdurma menüsünü açıp kapatmak için kullanılır. 
 ## Oyun İçi Görsel
 ![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun1.jpg)
 ![](https://github.com/rumeysaemine/Game/blob/main/image/Oyun2.jpg)
